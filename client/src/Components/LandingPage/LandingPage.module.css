@@ -1,0 +1,52 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.conPrin {
+    background-color: #002637;
+    width: 100vmax;
+    height: 100vmax;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.homepage {
+    margin: 40px;
+    width: 70%; 
+      
+}
+
+.imgLanding {
+    height: 50%;
+    z-index: -1;
+}
+
+.welcome {
+    background-color: aqua;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.boton {
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgba(8, 90, 242, 0.915);
+    font-size: large;
+    font-style: normal;
+    border-color: cornflowerblue;
+    color: white; 
+    padding: 7px;
+    box-shadow: 6px;
+    
+    
+}
+
+.boton:hover {
+    background-color:gold ;
+    color: cornflowerblue;
+    font-weight: bolder;
+    font-size: larger;
+}
